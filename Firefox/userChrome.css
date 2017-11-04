@@ -1,0 +1,47 @@
+/* Don't close this */
+@-moz-document url(chrome://browser/content/browser.xul) {
+* {
+  border-radius: unset !important;
+}
+
+#PanelUI-button {
+  border: unset !important;
+}
+
+.tabbrowser-tab:hover:not([selected="true"]) .tab-background,
+#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) {
+  opacity: .5 !important;
+}
+
+.tab-background {
+  border: unset !important;
+}
+
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
+  border-image: unset !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity,
+#nav-bar {
+  border: unset !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
+  padding-inline-end: 2px !important;
+  margin-inline-end: 2px !important;
+}
+
+#urlbar-icons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
+  display: none !important;
+}
+.autocomplete-richlistitem:not([selected="true"]) .ac-url,
+.autocomplete-richlistitem:not([selected="true"]) .ac-separator,
+.autocomplete-richlistitem:not([selected="true"]) .ac-action {
+  color: var(--secondary-fg-color) !important;
+}
+/* Fix white flashing bg */
+#main-window, browser[type="content-primary"], browser[type="content"], tabbrowser#content, #content, browser[type="content"] > html {
+  background: #222D32 !important;
+}
+}
