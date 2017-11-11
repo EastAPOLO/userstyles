@@ -4,20 +4,10 @@
   --secondary-bg-color: #263238;
   --secondary-fg-color: #BBA3A3;
   --darkest-bg-color: #263238;
-  --highlight-color: #408DD1;
-  --secondary-highlight-color: #408DD1;
-}
-
-  @font-face {
-  font-family: "FontAwesome";
-  font-weight: normal;
-  font-style : normal;
-         src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
-         src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"),
-               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
-               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
-               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
-               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  --highlight-color: #3A85E2;
+  --secondary-highlight-color: #3A85E2;
+  --primary-font-size: 115%;
+  --secondary-font-size: 110%;
 }
 
 .private-channel-recipients-invite .friend, .search-popout .option.selected::after, .friend-table-add-header, .search-popout .option::after, .connected-account-verified-icon, .channel.private:hover, .channel-arrow, #user-profile-modal .header, #user-profile-modal .guild:hover, .channel-members .member:hover, .clipboard-input-copied button, .is-local-bot-message, .cardPrimaryEditable-2IQ7-V, .headerNormal-1cioxU, .member.popout-open {
@@ -295,10 +285,24 @@
   background-color: var(--bg-color) !important;
 }
 
-.channel-members {
-  display: none !important;
-}
-
 .message-group-blocked-btn, .message-group-blocked, .channel-members-wrap {
   display: none !important;   
+}
+
+.divider {
+ display: none !important;
+}
+
+.textAreaEnabled-2vOfh8.textArea-20yzAH.textArea-20yzAH.scrollbarGhostHairline-D_btXm.scrollbar-11WJwo, .text {
+ font-size: var(--secondary-font-size) !important; 
+}
+
+.message-content, .user-name {
+ font-size: var(--primary-font-size) !important;  
+}
+
+.timestamp {
+ position: relative !important;
+ bottom: 3px !important;
+ font-size: var(--secondary-font-size) !important;   
 }

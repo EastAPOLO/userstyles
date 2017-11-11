@@ -3,7 +3,7 @@
   --fg-color: #D3DAE3;
   --secondary-bg-color: #263238;
   --secondary-fg-color: #BBA3A3;
-  --highlight-color: #408DD1;
+  --highlight-color: #3A85E2;
   --upvote-color: #C4C4C4;
   --downvote-color: #C4C4C4;
 }
@@ -36,7 +36,7 @@ body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .
   background-color: var(--highlight-color) !important;
 }
 
-body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label, .trophy-name, .thing .title, a:hover, .tabmenu li.selected a, .hover-bubble, .c-btn-primary, .search-result :link, .search-result :link > mark, .combined-search-page #search input, .drop-choices a, .happening-now {
+body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label, .trophy-name, .thing .title, a:hover, .tabmenu li.selected a, .hover-bubble, .c-btn-primary, .search-result :link, .search-result :link > mark, .combined-search-page #search input, .drop-choices a, .happening-now, input {
   color: var(--fg-color) !important;
 }
 
