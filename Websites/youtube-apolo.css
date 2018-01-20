@@ -8,12 +8,12 @@
 	:root
 	{
 		/*User colors*/
-		--main-color: #408DD1;
-		--main-background: #222D32;
-		--second-background: #263238;
-		--hover-background: #414A59;
-		--main-text: #D3DAE3;
-		--dimer-text: #BBA3A3;
+		--main-color: #3A85E2;
+		--main-background: #1C1C1C;
+		--second-background: #1A1717;
+		--hover-background: #383838;
+		--main-text: #DADADA;
+		--dimer-text: #DADADA;
 		--border-color: var(--hover-background);
 		--dim-white: rgba(255, 255, 255, .95);
 	}
