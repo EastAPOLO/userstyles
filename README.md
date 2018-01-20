@@ -1,4 +1,4 @@
 # EastAPOLO-Userstyles
 Dark themes for various websites.
 
-Credit for base themes and scripts go to https://github.com/chrisduerr/userstyles.
+Credit for some base themes go to https://github.com/chrisduerr/userstyles.
