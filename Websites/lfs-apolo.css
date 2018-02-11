@@ -1,0 +1,80 @@
+:root {
+  --bg-color: #1C1C1C;
+  --secondary-bg-color: #1A1717;
+  --fg-color: #DADADA;
+  --highlight-color: #3A85E2;
+  --input-color: #2A2828;
+  --border-color: #2D2D2D;
+}
+
+body {
+ background-color: var(--bg-color) !important;   
+ color: var(--fg-color) !important;
+}
+
+h1, h2, h3, h4, p {
+ color: var(--fg-color) !important;   
+}
+
+em, b {
+ color: var(--fg-color) !important;
+}
+
+.navbar, .navheader, .sect1, .subtitle, .navfooter {
+ background-color: var(--bg-color) !important;
+}
+
+div {
+ background-color: var(--bg-color) !important;
+}
+
+a {
+ color: var(--highlight-color) !important;
+ text-decoration: none !important;
+}
+
+.main a:hover, .chapter a:hover, .preface a:hover, .part a:hover, .index a:hover, .home a:hover {
+ color: var(--highlight-color) !important;
+}
+
+#leftmenu li:hover, #leftmenu a:hover {
+ background-color: var(--highlight-color) !important;
+}
+
+.navbar a:hover {
+  background-color: var(--highlight-color) !important;
+}
+
+.navbar {
+ border-color: var(--border-color) !important;   
+}
+
+#blfsactive, #alfsactive, #hintsactive, #patchesactive {
+ background-color: var(--highlight-color) !important;
+}
+
+#leftmenu > ul, #leftmenulist > li, #lfsmenulist > li, #blfsmenulist > li, #alfsmenulist > li, #hintsmenulist > li, #patchesmenulist > li {
+ background-color: var(--secondary-bg-color) !important;
+ border-style: none !important;
+ padding-top: 1px !important;
+ padding-bottom: 3px !important;
+ 
+}
+
+input {
+ background-color: var(--input-color) !important;
+ border-color: var(--border-color) !important;
+ color: var(--fg-color) !important;
+}
+
+select {
+ color: var(--fg-color) !important;
+}
+
+.required a:hover, .recommended a:hover, .optional a:hover, .usernotes a:hover {
+ color: var(--highlight-color) !important;
+}
+
+li a {
+ color: var(--fg-color) !important; 
+}
