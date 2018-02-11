@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #1C1C1C;
+  --secondary-bg-color: #1A1717;
+  --fg-color: #DADADA;
+  --highlight-color: #3A85E2;
+  --input-color: #2A2828;
+  --border-color: #2D2D2D;
+}
+
+.mx_MatrixChat_middlePanel, .mx_MatrixChat, .gm-scroll-view {
+ background-color: var(--bg-color) !important;
+ font-size: 16px;
+ color: var(--fg-color) !important; 
+}
+
+a {
+ color: var(--highlight-color) !important;   
+}
+
+a:hover {
+ background-color: var(--highlight-color) !important; 
+}
+
+h1, h2, h3, h4, p, pre, span, code {
+ color: var(--fg-color) !important; 
+}
+
+.mx_RoomSubList, .mx_RoomSubList_label, .mx_AccessibleButton a:hover, .mx_RoomStatusBar, .mx_RoomStatusBar_indicator, .mx_RoomStatusBar_scrollDownIndicator, .mx_RoomView_statusAreaBox, .mx_RoomView_statusArea {
+ background-color: var(--bg-color) !important;
+}
+
+.mx_RoomView_statusAreaBox_line, .mx_BottomLeftMenu {
+ border-top-color: var(--border-color) !important;
+ border-top-width: 1px !important;
+}
+
+.mx_LeftPanel, .markdown-body pre, .markdown-body code {
+ background-color: var(--secondary-bg-color) !important;
+}
+
+.mx_BaseAvatar_image {
+ border-radius: unset !important;   
+}
+
+.markdown-body pre, .markdown-body code {
+ filter: unset !important;
+}
+
+.mx_SearchBox {
+ padding: 4px !important;   
+}
