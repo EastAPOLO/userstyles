@@ -31,12 +31,16 @@ h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .
     color: var(--fg-color) !important;   
 }
 
-.cover-block .cover-desc, .right-sidebar .title {
+.cover-block .cover-desc, .right-sidebar .title, .detail-page-header {
     color: var(--secondary-fg-color) !important;
 }
 
 li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .navbar-default .navbar-nav > li > a:hover, .source-link .external-source-link:hover {
  	color: var(--highlight-color) !important;
+}
+
+.fa-inverse {
+    color: var(--bg-color) !important;
 }
 
 li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover {
@@ -67,7 +71,7 @@ input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropd
     border-radius: unset !important;
 }
 
-.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section {
+.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section, .detail-page-header, .content-block {
     border-color: var(--border-color) !important;
     border-radius: unset !important;
 }
