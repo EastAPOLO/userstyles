@@ -6,6 +6,7 @@
   --bg-color: #1C1C1C;
   --secondary-bg-color: #1A1717;
   --fg-color: #DADADA;
+  --secondary-fg-color: #606060;
   --highlight-color: #3A85E2;
   --hover-color: #292929;
   --border-color: #2D2D2D;
@@ -24,6 +25,10 @@ body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, 
 
 h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover {
     color: var(--fg-color) !important;   
+}
+
+.cover-block .cover-desc {
+    color: var(--secondary-fg-color) !important;
 }
 
 li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .navbar-default .navbar-nav > li > a:hover, .source-link .external-source-link:hover {
