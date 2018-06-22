@@ -19,7 +19,7 @@ body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, 
     border-radius: unset !important;
 }
 
-.gke-promo-banner, .panel-body.newsletter, .panel-heading.col-9, .panel.panel-default.nl, .sticky-banner.active, .twitter-block, .divider, .project, .avatar-container.s40, .s70.avatar-container {
+.gke-promo-banner, .panel-body.newsletter, .panel-heading.col-9, .panel.panel-default.nl, .sticky-banner.active, .twitter-block, .divider, .project, .avatar-container.s40, .s70.avatar-container, .identicon.s32 {
  	display: none !important;   
 }
 
