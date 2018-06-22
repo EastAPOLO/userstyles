@@ -59,11 +59,11 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
     background: var(--hover-color) !important;   
 }
 
-.navbar, .navbar-fixed-top, .navbar-default, .footer-fixed, .nav-tabs, .nav-links, .new-session-tabs, .avatar-circle, .avatar, .avatar-container, .header-user-avatar, .top-area, .breadcrumbs-container, .more, .toggle-sidebar-button, .flash-alert, .row-content-block, .navbar-form, .info-well, .dropdown-menu-toggle, .project-home-panel, .project-stats, .banner-callout.banner-non-empty-state, hr, .login-page .new-session-tabs li, .file-holder, .right-sidebar .gutter-toggle, .content-block {
+.navbar, .navbar-fixed-top, .navbar-default, .footer-fixed, .nav-tabs, .nav-links, .new-session-tabs, .avatar-circle, .avatar, .avatar-container, .header-user-avatar, .top-area, .breadcrumbs-container, .more, .toggle-sidebar-button, .flash-alert, .row-content-block, .navbar-form, .info-well, .dropdown-menu-toggle, .project-home-panel, .project-stats, .banner-callout.banner-non-empty-state, hr, .login-page .new-session-tabs li, .file-holder, .right-sidebar .gutter-toggle, .content-block, .select2-choices {
 	border: none !important;   
 }
 
-input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .hidden-xs, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .diff-files-changed, .diff-files-changed .commit-stat-summary {
+input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .hidden-xs, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .diff-files-changed, .diff-files-changed .commit-stat-summary, .row-content-block {
  	background: var(--secondary-bg-color) !important;
  	color: var(--fg-color) !important;
  	border: none !important;
@@ -84,7 +84,7 @@ input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropd
     border-radius: unset !important;
 }
 
-.avatar-circle, .avatar, .avatar-container, .header-user-avatar, .navbar-sub-nav > li > a, .navbar-nav > li > a, .navbar-gitlab .header-content .title a, .more, .navbar-form, .status-box, .project-feature-toggle, .toggle-icon {
+.avatar-circle, .avatar, .avatar-container, .header-user-avatar, .navbar-sub-nav > li > a, .navbar-nav > li > a, .navbar-gitlab .header-content .title a, .more, .navbar-form, .status-box, .project-feature-toggle, .toggle-icon, .select2-container-multi .select2-choices {
  	border-radius: unset !important;   
 }
 
