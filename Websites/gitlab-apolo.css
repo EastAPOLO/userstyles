@@ -51,7 +51,7 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
 	border: none !important;   
 }
 
-input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .hidden-xs, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar {
+input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .hidden-xs, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target {
  	background: var(--secondary-bg-color) !important;
  	color: var(--fg-color) !important;
  	border: none !important;
@@ -62,12 +62,12 @@ input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropd
  	border-bottom: 2px solid var(--highlight-color) !important;
 }
 
-.login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, .tree-holder .tree-table tr, .file-holder {
+.login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, .tree-holder .tree-table tr, .file-holder, .mr-state-widget {
  	border: 1px solid var(--border-color) !important;
     border-radius: unset !important;
 }
 
-.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card {
+.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section {
     border-color: var(--border-color) !important;
     border-radius: unset !important;
 }
