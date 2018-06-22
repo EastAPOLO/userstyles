@@ -1,0 +1,114 @@
+/* Gitlab Dark Userstyle */
+/* Author: Stefan Stojanovic */
+/* License: MIT */
+
+:root {
+  --bg-color: #1C1C1C;
+  --secondary-bg-color: #1A1717;
+  --fg-color: #DADADA;
+  --highlight-color: #3A85E2;
+  --hover-color: #292929;
+  --border-color: #2D2D2D;
+}
+
+body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, .customer-quote, .value-pillar-section, .feature-group, .ten-oh-announcement, .layout-page, .product-item, .content-container, .product-options, .value-content, .screen-shot-wrapper, .value-media, .list-unstyled, .gke-layer-body, .integrated-teams, .lifecycle-diagram-nav-wrapper, .callout, .source-link, .st-ui-content.st-search-results, .st-ui-type-heading.st-spelling-suggestion-link, .st-ui-footer, .u-subtle-bg, .customers-carousel-slide, .sub-wrapper, .container.u-hide-overflow, .content, .container.navless-container, .wrapper.body, .feature-gallery, .footer-container, .flash-alert, .cover-block, body.static-nav .search-box, .search-box, .navbar-form, .wrapper.comments, .md-page, .select2-input, .nav-tabs > li.active > a:hover, .mvp, .form-control, code, .location-badge, .commit-sha-group .label-monospace, .file-content.wiki, .content-list, body.ui-indigo .search form, .search .search-input, .dropdown-input-field, .customer-logos-background, .devise-layout-html, .code.white pre.code, .ace_content, .search-input, .devops-hero-container, .text-center, .hero-container, .solution-container {
+    background: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    border-radius: unset !important;
+}
+
+.gke-promo-banner, .panel-body.newsletter, .panel-heading.col-9, .panel.panel-default.nl, .sticky-banner.active, .twitter-block, .divider, .project, .avatar-container.s40, .s70.avatar-container {
+ 	display: none !important;   
+}
+
+h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover {
+    color: var(--fg-color) !important;   
+}
+
+li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .navbar-default .navbar-nav > li > a:hover, .source-link .external-source-link:hover {
+ 	color: var(--highlight-color) !important;
+}
+
+li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover  {
+    background: var(--highlight-color) !important;  
+}
+
+.tree-holder .tree-table tr:hover:not(.tree-truncated-warning) td {
+    background: var(--hover-color) !important;   
+}
+
+.navbar, .navbar-fixed-top, .navbar-default, .footer-fixed, .nav-tabs, .nav-links, .new-session-tabs, .avatar-circle, .avatar, .avatar-container, .header-user-avatar, .top-area, .breadcrumbs-container, .more, .toggle-sidebar-button, .flash-alert, .row-content-block, .navbar-form, .info-well, .dropdown-menu-toggle, .project-home-panel, .project-stats, .banner-callout.banner-non-empty-state, hr, .login-page .new-session-tabs li, .file-holder {
+	border: none !important;   
+}
+
+input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .hidden-xs, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile {
+ 	background: var(--secondary-bg-color) !important;
+ 	color: var(--fg-color) !important;
+ 	border: none !important;
+ 	border-radius: unset !important;
+}
+
+.login-page .new-session-tabs li.active a, .nav-links li.active a, .nav-tabs .nav-link.active {
+ 	border-bottom: 2px solid var(--highlight-color) !important;
+}
+
+.login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, .tree-holder .tree-table tr, .file-holder {
+ 	border: 1px solid var(--border-color) !important;
+    border-radius: unset !important;
+}
+
+.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card {
+    border-color: var(--border-color) !important;
+    border-radius: unset !important;
+}
+
+.avatar-circle, .avatar, .avatar-container, .header-user-avatar, .navbar-sub-nav > li > a, .navbar-nav > li > a, .navbar-gitlab .header-content .title a, .more, .navbar-form {
+ 	border-radius: unset !important;   
+}
+
+.wiki h1, .wiki h2, .file-title-flex-parent  {
+    border-bottom: 1px solid var(--border-color) !important;   
+}
+
+.projects-dropdown-container .project-dropdown-sidebar {
+ 	border-right: 1px solid var(--border-color) !important;
+}
+
+.nav-links li a {
+ 	line-height: 18px !important;   
+}
+
+.enterprise-edition {
+ 	background: var(--bg-color) !important;
+ 	background-image: none !important;
+}
+
+#project-filter-form-field, #user_login, #user_password, .form-control, .login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, input[type="checkbox"], input[type="checkbox"]:hover, .nav-sidebar, .dropdown-input-field {
+ 	box-shadow: none !important;
+}
+
+.user-contrib-cell {
+    fill: var(--bg-color) !important;
+}
+
+[fill*="#ededed"] {
+    fill: var(--bg-color) !important; 
+}
+
+[fill="rgb(172, 213, 242)"] {
+    fill: var(--highlight-color) !important; 
+}
+
+code {
+ top: 0 !important;   
+}
+
+/* dirty hack to get rid of arrow */
+.project-repo-buttons .count-with-arrow {
+ position: static !important;
+}
+
+body.ui-indigo .nav-sidebar li.active {
+ box-shadow: inset 4px 0 0 var(--highlight-color);  
+}
