@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .
     color: var(--fg-color) !important;   
 }
 
-.cover-block .cover-desc, .right-sidebar .title, .detail-page-header {
+.cover-block .cover-desc, .right-sidebar .title, .detail-page-header, .mr-widget-help {
     color: var(--secondary-fg-color) !important;
 }
 
@@ -79,7 +79,7 @@ input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropd
     border-radius: unset !important;
 }
 
-.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section, .detail-page-header, ul.notes > li .timeline-entry-inner, .comment-toolbar {
+.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section, .detail-page-header, ul.notes > li .timeline-entry-inner, .comment-toolbar, .mr-widget-footer {
     border-color: var(--border-color) !important;
     border-radius: unset !important;
 }
