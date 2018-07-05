@@ -10,9 +10,10 @@
   --highlight-color: #3A85E2;
   --hover-color: #292929;
   --border-color: #2D2D2D;
+  --button-color: #2B2B2B;
 }
 
-body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, .customer-quote, .value-pillar-section, .feature-group, .ten-oh-announcement, .layout-page, .product-item, .content-container, .product-options, .value-content, .screen-shot-wrapper, .value-media, .list-unstyled, .gke-layer-body, .integrated-teams, .lifecycle-diagram-nav-wrapper, .callout, .source-link, .st-ui-content.st-search-results, .st-ui-type-heading.st-spelling-suggestion-link, .st-ui-footer, .u-subtle-bg, .customers-carousel-slide, .sub-wrapper, .container.u-hide-overflow, .content, .container.navless-container, .wrapper.body, .feature-gallery, .footer-container, .flash-alert, .cover-block, body.static-nav .search-box, .search-box, .navbar-form, .wrapper.comments, .md-page, .select2-input, .nav-tabs > li.active > a:hover, .mvp, .form-control, code, .location-badge, .file-content.wiki, .content-list, body.ui-indigo .search form, .search .search-input, .dropdown-input-field, .customer-logos-background, .devise-layout-html, .code.white pre.code, .ace_content, .search-input, .devops-hero-container, .hero-container, .solution-container, .timeline-entry, .avatar, .md-area, .cover, .info-well, .plan, .eleven-oh-announcement {
+body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, .customer-quote, .value-pillar-section, .feature-group, .ten-oh-announcement, .layout-page, .product-item, .content-container, .product-options, .value-content, .screen-shot-wrapper, .value-media, .list-unstyled, .gke-layer-body, .integrated-teams, .lifecycle-diagram-nav-wrapper, .callout, .source-link, .st-ui-content.st-search-results, .st-ui-type-heading.st-spelling-suggestion-link, .st-ui-footer, .u-subtle-bg, .customers-carousel-slide, .sub-wrapper, .container.u-hide-overflow, .content, .container.navless-container, .wrapper.body, .feature-gallery, .footer-container, .flash-alert, .cover-block, body.static-nav .search-box, .search-box, .navbar-form, .wrapper.comments, .md-page, .select2-input, .nav-tabs > li.active > a:hover, .mvp, code, .file-content.wiki, .content-list, .dropdown-input-field, .customer-logos-background, .devise-layout-html, .code.white pre.code, .ace_content, .search-input, .devops-hero-container, .hero-container, .solution-container, .timeline-entry, .avatar, .md-area, .cover, .info-well, .plan, .eleven-oh-announcement, .diff-files-changed, .diff-files-changed .commit-stat-summary, .code.white .line_holder .line_content, .landing {
     background: var(--bg-color) !important;
     color: var(--fg-color) !important;
     border: none !important;
@@ -23,15 +24,15 @@ body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, 
  	display: none !important;   
 }
 
-h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover {
+h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover, .clearfix a:hover, .btn .fa, .btn svg, .cover-block .cover-desc, .projects-dropdown-container .section-header {
     color: var(--fg-color) !important;   
 }
 
-.cover-block .cover-desc, .right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa {
+.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8 {
     color: var(--secondary-fg-color) !important;
 }
 
-li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .source-link .external-source-link:hover, .info-well .badge.badge-gray:hover, .faq-answer a:hover, .search-icon:hover, .item-description a:hover, a.all-features:hover, body.static-nav .navbar-header-dark a:hover, .blog.article .author-twitter i:hover, .blog.article .author-gitlab i:hover, .blog.article .author a:hover, p a:hover, #main-gl-nav a:hover, a.more-link:hover, a.feature-more:hover, .js-hover .feature-title:hover, i.fab:hover, .brand-holder a:hover, .float-right a:hover, .clearfix a:hover, .breadcrumbs-sub-title a:hover {
+li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .source-link .external-source-link:hover, .info-well .badge.badge-gray:hover, .faq-answer a:hover, .search-icon:hover, .item-description a:hover, a.all-features:hover, body.static-nav .navbar-header-dark a:hover, .blog.article .author-twitter i:hover, .blog.article .author-gitlab i:hover, .blog.article .author a:hover, p a:hover, #main-gl-nav a:hover, a.more-link:hover, a.feature-more:hover, .js-hover .feature-title:hover, i.fab:hover, .brand-holder a:hover, .float-right a:hover, .breadcrumbs-sub-title a:hover, .blog.list .more:hover, .blog.list .cover h2:hover, .feature-title:hover {
  	color: var(--highlight-color) !important;
     text-decoration: none !important;
 }
@@ -40,7 +41,7 @@ li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-
     color: var(--bg-color) !important;
 }
 
-li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked {
+li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked, li.active::after, .page-item.active .page-link {
     background: var(--highlight-color) !important;  
 }
 
@@ -48,11 +49,11 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
     background: var(--hover-color) !important;   
 }
 
-.navbar, .navbar-fixed-top, .navbar-default, .footer-fixed, .nav-tabs, .nav-links, .new-session-tabs, .avatar-circle, .avatar, .avatar-container, .header-user-avatar, .top-area, .breadcrumbs-container, .more, .toggle-sidebar-button, .flash-alert, .row-content-block, .navbar-form, .info-well, .dropdown-menu-toggle, .project-home-panel, .project-stats, .banner-callout.banner-non-empty-state, hr, .login-page .new-session-tabs li, .file-holder, .right-sidebar .gutter-toggle, .content-block, .select2-choices, .source-link .external-source-link, .nav-block.activities {
+.navbar, .navbar-fixed-top, .navbar-default, .footer-fixed, .nav-tabs, .nav-links, .new-session-tabs, .avatar-circle, .avatar, .avatar-container, .header-user-avatar, .top-area, .breadcrumbs-container, .more, .toggle-sidebar-button, .flash-alert, .row-content-block, .navbar-form, .info-well, .dropdown-menu-toggle, .project-home-panel, .project-stats, .banner-callout.banner-non-empty-state, hr, .login-page .new-session-tabs li, .file-holder, .right-sidebar .gutter-toggle, .content-block, .select2-choices, .source-link .external-source-link, .nav-block.activities, .method + .method, .commit-box, .block, .settings, .project-visibility-setting {
 	border: none !important;   
 }
 
-input, .btn, .avatar-container, .user-access-role, .featured-item-button, .dropdown-menu, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, #sort-projects-dropdown, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, #nav-projects-dropdown a, #project-filter-form-field, .form-group input, #user_bio, th, #project_clone, ul .sidebar-sub-level-items.fly-out-list, .project-repo-buttons .count-with-arrow .count, .file-holder .file-title, .card-header, .commit-header, .dropdown-menu-toggle, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .diff-files-changed, .diff-files-changed .commit-stat-summary, .row-content-block, .mr-version-controls, .diff-content, .navbar-collapse.collapse.in, .badge.badge-gray, .commit-sha-group .label-monospace, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .search-icon {
+.avatar-container, .user-access-role, .featured-item-button, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, th, ul .sidebar-sub-level-items.fly-out-list, .file-holder .file-title, .card-header, .commit-header, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .row-content-block, .mr-version-controls, .navbar-collapse.collapse.in, .badge.badge-gray, .commit-sha-group .label-monospace, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .bg-light, .community-item, .blog.list .overlay, .flex-tile-list > li:not(.no-tile), .code.white, .btn.disabled, .btn[disabled], .btn.disabled:hover, .btn[disabled]:hover, #nav-projects-dropdown a, .dropdown-menu-toggle, .dropdown-menu, .header-user .dropdown-menu, .location-badge, .search-icon, .feature-media, .project-feature-settings {
  	background: var(--secondary-bg-color) !important;
  	color: var(--fg-color) !important;
  	border: none !important;
@@ -97,7 +98,7 @@ blockquote {
  	line-height: 18px !important;   
 }
 
-.enterprise-edition, .code, .code .line_holder .line_content, .code .diff-line-num, .diff-file .notes_line, .discussion-form {
+.enterprise-edition, .code, .discussion-form {
  	background: var(--bg-color) !important;
  	background-image: none !important;
 }
@@ -112,7 +113,7 @@ blockquote {
  	box-shadow: none !important;
 }
 
-.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg {
+.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon {
     fill: var(--fg-color) !important;
 }
 
@@ -121,11 +122,23 @@ blockquote {
 }
 
 [fill*="#ededed"] {
-    fill: var(--bg-color) !important; 
+    fill: #1C1C1C !important; 
 }
 
 [fill="rgb(172, 213, 242)"] {
-    fill: var(--highlight-color) !important; 
+    fill: #122945 !important; 
+}
+
+[fill="rgb(127, 168, 201)"] {
+    fill: #1C406B !important; 
+}
+
+[fill="rgb(82, 123, 160)"] {
+    fill: #2D68AD !important; 
+}
+
+[fill="rgb(37, 78, 119)"] {
+    fill: #3A85E2 !important; 
 }
 
 .merge-request-tabs-container .inner-page-scroll-tabs, .diff-files-changed .commit-stat-summary {
@@ -133,22 +146,59 @@ blockquote {
 }
 
 code {
- top: 0 !important;   
+    top: 0 !important;   
 }
 
 /* dirty hack to get rid of arrow */
 .project-repo-buttons .count-with-arrow {
- position: static !important;
+    position: static !important;
 }
 
 body.ui-indigo .nav-sidebar li.active {
- box-shadow: inset 4px 0 0 var(--highlight-color);  
+    box-shadow: inset 4px 0 0 var(--highlight-color);  
 }
 
 .pricing-tabs li {
- border-bottom: 2px solid var(--fg-color) !important;   
+    border-bottom: 2px solid var(--fg-color) !important;   
 }
 
 body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
- opacity: 1 !important;   
+    opacity: 1 !important;   
+}
+
+.code.white .line_holder .line_content.old span.idiff {
+    background: #993131 !important;
+}
+
+.code.white .line_holder .line_content.new span.idiff {
+    background: #2C9B43 !important;
+}
+
+.code.white .line_holder .line_content.old {
+    background: #AD3838 !important;
+}
+
+.code.white .line_holder .line_content.new {
+    background: #32AD4B !important;   
+}
+
+.code.white .line_holder .line_content.match {
+    background: #262626 !important;
+    color: rgba(218, 218, 218, .8) !important;
+}
+
+.btn, #project-filter-form-field, #project_clone, .project-repo-buttons .count-with-arrow .count,  #sort-projects-dropdown, .qa-branches-select, .form-group input, #user_bio, .select2-container .select2-choice, body.ui-indigo .search form, .search .search-input, .form-control, .projects-dropdown-container .search-input-container .search-icon, .s16.search-icon, .project-feature-toggle {
+    background: var(--button-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    border-radius: unset !important;
+    box-shadow: none !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.4)  !important;   
+}
+
+.tree-holder .tree-item .tree-item-file-name a:hover, .description.prepend-top-5 a:hover {
+    text-decoration: underline !important;   
 }
