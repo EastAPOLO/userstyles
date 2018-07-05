@@ -1,8 +1,12 @@
+/* Reddit Dark Userstyle */
+/* Author: Christian Duerr */
+/* License: GPL3 <https://www.gnu.org/licenses/gpl-3.0-standalone.html> */
+
 :root {
   --bg-color: #1C1C1C;
   --fg-color: #DADADA;
   --secondary-bg-color: #1A1717;
-  --secondary-fg-color: #7A7A7A;
+  --secondary-fg-color: #707070;
   --highlight-color: #3A85E2;
   --upvote-color: #C4C4C4;
   --downvote-color: #C4C4C4;
@@ -28,7 +32,7 @@ body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .
   background-color: var(--bg-color) !important;
 }
 
-.linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button, .reddit-infobar, .modal-content .buttons a, .roundfield, .white-field, .hover-bubble, .md hr, .c-btn-primary, .c-btn-primary:hover, .c-btn-primary:focus, .drop-choices, .happening-now, #header-bottom-left {
+.linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button, .reddit-infobar, .modal-content .buttons a, .roundfield, .white-field, .hover-bubble, .md hr, .c-btn-primary, .c-btn-primary:hover, .c-btn-primary:focus, .drop-choices, .happening-now {
   background-color: var(--secondary-bg-color) !important;
 }
 
@@ -56,7 +60,7 @@ body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label,
   color: var(--downvote-color) !important;
 }
 
-.linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble, .c-btn-primary, .entry, .search-result-group-header, .happening-now, .author-tooltip__head, .author-tooltip__credentials-list li  {
+.linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble, .c-btn-primary, .entry, .search-result-group-header, .happening-now, .author-tooltip__head, .author-tooltip__credentials-list li {
   border: none !important;
 }
 
@@ -178,14 +182,4 @@ textarea {
 
 .archived-infobar {
   padding: 10px !important;
-}
-
-#siteTable div, #search {
- background-color: var(--bg-color) !important;
- border: none !important;
- box-shadow: none !important;
-}
-
-#header-bottom-left {
- box-shadow: none !important;   
 }
