@@ -117,7 +117,7 @@ blockquote {
  	box-shadow: none !important;
 }
 
-.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon {
+.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon, .commit-icon svg path {
     fill: var(--fg-color) !important;
 }
 
