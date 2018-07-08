@@ -28,11 +28,11 @@ h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .
     color: var(--fg-color) !important;   
 }
 
-.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
+.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight, .commit .commit-row-description, span.c, .file-content.code .line-numbers a {
     color: var(--secondary-fg-color) !important;
 }
 
-li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .source-link .external-source-link:hover, .info-well .badge.badge-gray:hover, .faq-answer a:hover, .search-icon:hover, .item-description a:hover, a.all-features:hover, body.static-nav .navbar-header-dark a:hover, .blog.article .author-twitter i:hover, .blog.article .author-gitlab i:hover, .blog.article .author a:hover, p a:hover, #main-gl-nav a:hover, a.more-link:hover, a.feature-more:hover, .js-hover .feature-title:hover, i.fab:hover, .brand-holder a:hover, .float-right a:hover, .breadcrumbs-sub-title a:hover, .blog.list .more:hover, .blog.list .cover h2:hover, .feature-title:hover {
+li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-file-name .fa.fa-folder.fa-fw, .description.prepend-top-5 a, .btn-link:hover, .content-list a:hover, tr a:hover, body.index .navbar-fixed-top .search-icon:hover, body.index .navbar-fixed-top .search-box-icon:hover, a p:hover, .footer-links a:hover, .source-link .external-source-link:hover, .faq-answer a:hover, .search-icon:hover, .item-description a:hover, a.all-features:hover, body.static-nav .navbar-header-dark a:hover, .blog.article .author-twitter i:hover, .blog.article .author-gitlab i:hover, .blog.article .author a:hover, p a:hover, #main-gl-nav a:hover, a.more-link:hover, a.feature-more:hover, .js-hover .feature-title:hover, i.fab:hover, .brand-holder a:hover, .float-right a:hover, .breadcrumbs-sub-title a:hover, .blog.list .more:hover, .blog.list .cover h2:hover, .feature-title:hover {
  	color: var(--highlight-color) !important;
     text-decoration: none !important;
 }
@@ -41,7 +41,7 @@ li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-
     color: var(--bg-color) !important;
 }
 
-li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked, li.active::after, .page-item.active .page-link, .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
+li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked, li.active::after, .page-item.active .page-link, .algolia-autocomplete .algolia-docsearch-suggestion--highlight, .info-well .badge.badge-gray:hover {
     background: var(--highlight-color) !important;  
 }
 
@@ -53,7 +53,7 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
 	border: none !important;   
 }
 
-.avatar-container, .user-access-role, .featured-item-button, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, th, ul .sidebar-sub-level-items.fly-out-list, .file-holder .file-title, .card-header, .commit-header, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .row-content-block, .mr-version-controls, .navbar-collapse.collapse.in, .badge.badge-gray, .commit-sha-group .label-monospace, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .bg-light, .community-item, .blog.list .overlay, .flex-tile-list > li:not(.no-tile), .code.white, .btn.disabled, .btn[disabled], .btn.disabled:hover, .btn[disabled]:hover, #nav-projects-dropdown a, .dropdown-menu-toggle, .dropdown-menu, .header-user .dropdown-menu, .location-badge, .search-icon, .feature-media, .project-feature-settings, .main-topics li, .landing .landing-header-top, .algolia-autocomplete .ds-dropdown-menu [class^="ds-dataset-"], .algolia-autocomplete .algolia-docsearch-suggestion, .header, .alert, pre.highlight, pre.highlight code, blockquote {
+.avatar-container, .user-access-role, .featured-item-button, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, th, ul .sidebar-sub-level-items.fly-out-list, .file-holder .file-title, .card-header, .commit-header, .dropdown-toggle, .page-link, .text-expander, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .row-content-block, .mr-version-controls, .navbar-collapse.collapse.in, .badge.badge-gray, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .bg-light, .community-item, .blog.list .overlay, .flex-tile-list > li:not(.no-tile),  .btn.disabled, .btn[disabled], .btn.disabled:hover, .btn[disabled]:hover, #nav-projects-dropdown a, .dropdown-menu-toggle, .dropdown-menu, .header-user .dropdown-menu, .location-badge, .search-icon, .feature-media, .project-feature-settings, .main-topics li, .landing .landing-header-top, .algolia-autocomplete .ds-dropdown-menu [class^="ds-dataset-"], .algolia-autocomplete .algolia-docsearch-suggestion, .header, .alert, blockquote, .tooltip-inner {
  	background: var(--secondary-bg-color) !important;
  	color: var(--fg-color) !important;
  	border: none !important;
@@ -94,6 +94,10 @@ blockquote {
     border-left: 3px solid var(--highlight-color) !important;   
 }
 
+.commit .commit-row-description {
+    border-left: 2px solid var(--highlight-color) !important;   
+}
+
 .algolia-autocomplete .algolia-docsearch-suggestion--content::before, .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column::before {
     background: var(--border-color) !important;
 }
@@ -117,7 +121,7 @@ blockquote {
  	box-shadow: none !important;
 }
 
-.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon, .commit-icon svg path {
+.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon, .commit-icon svg path, .commit-sha-group .btn svg {
     fill: var(--fg-color) !important;
 }
 
@@ -195,7 +199,7 @@ body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
     color: rgba(218, 218, 218, .8) !important;
 }
 
-.btn, #project-filter-form-field, #project_clone, .project-repo-buttons .count-with-arrow .count,  #sort-projects-dropdown, .qa-branches-select, .form-group input, #user_bio, .select2-container .select2-choice, body.ui-indigo .search form, .search .search-input, .form-control, .projects-dropdown-container .search-input-container .search-icon, .s16.search-icon, .project-feature-toggle, .landing .docsearch, .header input, .clip-btn {
+.btn, #project-filter-form-field, #project_clone, .project-repo-buttons .count-with-arrow .count,  #sort-projects-dropdown, .qa-branches-select, .form-group input, #user_bio, .select2-container .select2-choice, body.ui-indigo .search form, .search .search-input, .form-control, .projects-dropdown-container .search-input-container .search-icon, .s16.search-icon, .project-feature-toggle, .landing .docsearch, .header input, .clip-btn, .info-well .badge.badge-gray, .form-control, #commits-search, .commit-sha-group .label-monospace {
     background: var(--button-color) !important;
     color: var(--fg-color) !important;
     border: none !important;
@@ -209,4 +213,16 @@ body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
 
 .tree-holder .tree-item .tree-item-file-name a:hover, .description.prepend-top-5 a:hover {
     text-decoration: underline !important;   
+}
+
+.info-well .badge.badge-gray:hover {
+    text-decoration: none !important;
+}
+
+.info-well .badge.badge-gray {
+    margin: 0 8px !important;
+}
+
+.tooltip .arrow::before {
+    border-bottom-color: var(--secondary-bg-color) !important;   
 }
