@@ -13,7 +13,7 @@
   --button-color: #2B2B2B;
 }
 
-body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, .customer-quote, .value-pillar-section, .feature-group, .ten-oh-announcement, .layout-page, .product-item, .content-container, .product-options, .value-content, .screen-shot-wrapper, .value-media, .list-unstyled, .gke-layer-body, .integrated-teams, .lifecycle-diagram-nav-wrapper, .callout, .source-link, .st-ui-content.st-search-results, .st-ui-type-heading.st-spelling-suggestion-link, .st-ui-footer, .u-subtle-bg, .customers-carousel-slide, .sub-wrapper, .container.u-hide-overflow, .content, .container.navless-container, .wrapper.body, .feature-gallery, .footer-container, .flash-alert, .cover-block, body.static-nav .search-box, .search-box, .navbar-form, .wrapper.comments, .md-page, .select2-input, .nav-tabs > li.active > a:hover, .mvp, code, .file-content.wiki, .content-list, .dropdown-input-field, .customer-logos-background, .devise-layout-html, .code.white pre.code, .ace_content, .search-input, .devops-hero-container, .hero-container, .solution-container, .timeline-entry, .avatar, .md-area, .cover, .info-well, .plan, .eleven-oh-announcement, .diff-files-changed, .diff-files-changed .commit-stat-summary, .code.white .line_holder .line_content, .landing {
+body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, .customer-quote, .value-pillar-section, .feature-group, .ten-oh-announcement, .layout-page, .product-item, .content-container, .product-options, .value-content, .screen-shot-wrapper, .value-media, .list-unstyled, .gke-layer-body, .integrated-teams, .lifecycle-diagram-nav-wrapper, .callout, .source-link, .st-ui-content.st-search-results, .st-ui-type-heading.st-spelling-suggestion-link, .st-ui-footer, .u-subtle-bg, .customers-carousel-slide, .sub-wrapper, .container.u-hide-overflow, .content, .container.navless-container, .wrapper.body, .feature-gallery, .footer-container, .flash-alert, .cover-block, body.static-nav .search-box, .search-box, .navbar-form, .wrapper.comments, .md-page, .select2-input, .nav-tabs > li.active > a:hover, .mvp, code, .file-content.wiki, .content-list, .dropdown-input-field, .customer-logos-background, .devise-layout-html, .code.white pre.code, .ace_content, .search-input, .devops-hero-container, .hero-container, .solution-container, .timeline-entry, .avatar, .md-area, .cover, .info-well, .plan, .eleven-oh-announcement, .diff-files-changed, .diff-files-changed .commit-stat-summary, .code.white .line_holder .line_content, .landing, .landing .landing-header {
     background: var(--bg-color) !important;
     color: var(--fg-color) !important;
     border: none !important;
@@ -24,11 +24,11 @@ body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, 
  	display: none !important;   
 }
 
-h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover, .clearfix a:hover, .btn .fa, .btn svg, .cover-block .cover-desc, .projects-dropdown-container .section-header {
+h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover, .clearfix a:hover, .btn .fa, .btn svg, .cover-block .cover-desc, .projects-dropdown-container .section-header, .algolia-autocomplete .algolia-docsearch-suggestion--title {
     color: var(--fg-color) !important;   
 }
 
-.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8 {
+.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
     color: var(--secondary-fg-color) !important;
 }
 
@@ -41,11 +41,11 @@ li.pull-left a:hover, li.pull-right a:hover, .tree-holder .tree-item .tree-item-
     color: var(--bg-color) !important;
 }
 
-li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked, li.active::after, .page-item.active .page-link {
+li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:hover, .dropdown-content a:hover, .sidebar-top-level-items a:hover, .user-counter a:hover, .header-user.dropdown a:hover, .dropdown-menu a:hover, .logo-text a:hover, body.ui-indigo .navbar-gitlab .navbar-sub-nav > li.active > a, #nav-projects-dropdown a:hover, body.ui-indigo .navbar-gitlab .nav > li.dropdown.show > a, .context-header > a:hover, .select2-results .select2-highlighted .select2-result-label, .btn:hover, .page-link:hover, .contribute-tile a:hover, .right-sidebar.right-sidebar-collapsed .block:hover, .project-feature-toggle.is-checked, li.active::after, .page-item.active .page-link, .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
     background: var(--highlight-color) !important;  
 }
 
-.tree-holder .tree-table tr:hover:not(.tree-truncated-warning) td {
+.tree-holder .tree-table tr:hover:not(.tree-truncated-warning) td, .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion.suggestion-layout-simple, .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
     background: var(--hover-color) !important;   
 }
 
@@ -53,14 +53,14 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
 	border: none !important;   
 }
 
-.avatar-container, .user-access-role, .featured-item-button, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, th, ul .sidebar-sub-level-items.fly-out-list, .file-holder .file-title, .card-header, .commit-header, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .row-content-block, .mr-version-controls, .navbar-collapse.collapse.in, .badge.badge-gray, .commit-sha-group .label-monospace, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .bg-light, .community-item, .blog.list .overlay, .flex-tile-list > li:not(.no-tile), .code.white, .btn.disabled, .btn[disabled], .btn.disabled:hover, .btn[disabled]:hover, #nav-projects-dropdown a, .dropdown-menu-toggle, .dropdown-menu, .header-user .dropdown-menu, .location-badge, .search-icon, .feature-media, .project-feature-settings {
+.avatar-container, .user-access-role, .featured-item-button, .dropdown-menu-nav, body.ui_indigo .navbar-gitlab .navbar-sub-nav > li.dropdown.open > a, li.pull-left > a, li.pull-right > a, .well-segment, .article-information, .more, .feature, .navbar, .nav-sidebar, .toggle-sidebar-button,  .row-content-block.white, .visible-lg, #nav-projects-dropdown, .select2-choice, #select2-drop, .header-more.dropdown,  .list-unstyled.navbar-sub-nav, th, ul .sidebar-sub-level-items.fly-out-list, .file-holder .file-title, .card-header, .commit-header, .dropdown-toggle, .page-link, .text-expander, #commits-search, .hello-bar-content, .nav-tabs .nav-link.active, .login-page .new-session-tabs li:not(.active), .code.white .line-numbers, .code.white .diff-line-num, .file-title-flex-parent, .ace-tm .ace_gutter, body.index .navbar-fixed-top .search-icon, .tile, .right-sidebar, .mr-source-target, .merge-request-tabs-container .inner-page-scroll-tabs, .merge-request-tabs-holder, .row-content-block, .mr-version-controls, .navbar-collapse.collapse.in, .badge.badge-gray, .commit-sha-group .label-monospace, .plan-name, .plan-description,  #community-edition, .all-features, #enterprise-edition-starter, #enterprise-edition-premium, #enterprise-edition-ultimate, .search-icon .blog.article .overlay, div.plan, .blog.article .overlay, .bg-light, .community-item, .blog.list .overlay, .flex-tile-list > li:not(.no-tile), .code.white, .btn.disabled, .btn[disabled], .btn.disabled:hover, .btn[disabled]:hover, #nav-projects-dropdown a, .dropdown-menu-toggle, .dropdown-menu, .header-user .dropdown-menu, .location-badge, .search-icon, .feature-media, .project-feature-settings, .main-topics li, .landing .landing-header-top, .algolia-autocomplete .ds-dropdown-menu [class^="ds-dataset-"], .algolia-autocomplete .algolia-docsearch-suggestion {
  	background: var(--secondary-bg-color) !important;
  	color: var(--fg-color) !important;
  	border: none !important;
  	border-radius: unset !important;
 }
 
-.login-page .new-session-tabs li.active a, .nav-links li.active a, .nav-tabs .nav-link.active, .pricing-options--self-hosted .plan, .pricing-tabs li.active, body.ui-indigo .nav-links li.active a:hover {
+.login-page .new-session-tabs li.active a, .nav-links li.active a, .nav-tabs .nav-link.active, .pricing-options--self-hosted .plan, .pricing-tabs li.active, body.ui-indigo .nav-links li.active a:hover, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
  	border-bottom: 2px solid var(--highlight-color) !important;
 }
 
@@ -73,7 +73,7 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
     border-radius: unset !important;
 }
 
-.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section, .detail-page-header, ul.notes > li .timeline-entry-inner, .comment-toolbar, .mr-widget-footer {
+.projects-list > li, .breadcrumbs-container, .top-area, .wiki-page-header, tr > td, .event-item, .table th, ul.content-list > li, .card, .mr-widget-section, .detail-page-header, ul.notes > li .timeline-entry-inner, .comment-toolbar, .mr-widget-footer, .main-topics li h2, .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
     border-color: var(--border-color) !important;
     border-radius: unset !important;
 }
@@ -94,6 +94,10 @@ blockquote {
     border-left: 3px solid var(--highlight-color) !important;   
 }
 
+.algolia-autocomplete .algolia-docsearch-suggestion--content::before, .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column::before {
+    background: var(--border-color) !important;
+}
+
 .nav-links li a {
  	line-height: 18px !important;   
 }
@@ -109,7 +113,7 @@ blockquote {
     border: none !important;
 }
 
-#project-filter-form-field, #user_login, #user_password, .form-control, .login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, input[type="checkbox"], input[type="checkbox"]:hover, .nav-sidebar, .dropdown-input-field, .md-area {
+#project-filter-form-field, #user_login, #user_password, .form-control, .login-page .new-session-tabs, .login-page .login-box, .login-page .omniauth-container, input[type="checkbox"], input[type="checkbox"]:hover, .nav-sidebar, .dropdown-input-field, .md-area, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
  	box-shadow: none !important;
 }
 
@@ -187,7 +191,7 @@ body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
     color: rgba(218, 218, 218, .8) !important;
 }
 
-.btn, #project-filter-form-field, #project_clone, .project-repo-buttons .count-with-arrow .count,  #sort-projects-dropdown, .qa-branches-select, .form-group input, #user_bio, .select2-container .select2-choice, body.ui-indigo .search form, .search .search-input, .form-control, .projects-dropdown-container .search-input-container .search-icon, .s16.search-icon, .project-feature-toggle {
+.btn, #project-filter-form-field, #project_clone, .project-repo-buttons .count-with-arrow .count,  #sort-projects-dropdown, .qa-branches-select, .form-group input, #user_bio, .select2-container .select2-choice, body.ui-indigo .search form, .search .search-input, .form-control, .projects-dropdown-container .search-input-container .search-icon, .s16.search-icon, .project-feature-toggle, .landing .docsearch {
     background: var(--button-color) !important;
     color: var(--fg-color) !important;
     border: none !important;
