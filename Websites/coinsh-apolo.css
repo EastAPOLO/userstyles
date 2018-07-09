@@ -1,0 +1,51 @@
+/* Coinsh Dark Userstyle */
+/* Author: Stefan Stojanovic */
+/* License: GPL3 <https://www.gnu.org/licenses/gpl-3.0-standalone.html> */
+
+:root {
+  --bg-color: #1C1C1C;
+  --secondary-bg-color: #1A1717;
+  --fg-color: #DADADA;
+  --highlight-color: #3A85E2;
+  --button-color: #2B2B2B;
+}
+
+body {
+    font-family: Noto Sans !important;   
+}
+
+body, main, #fileToUpload {
+    background: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+}
+
+.menu, .menu h2, .menu h3 {
+    background: var(--secondary-bg-color) !important;
+    color: var(--fg-color) !important;
+}
+
+[value="INSERT COIN"]:hover, [value="FORGE MASK"]:hover {
+    background: var(--highlight-color) !important;
+    color: var(--fg-color) !important;
+}
+
+a {
+ color: var(--fg-color) !important;
+ text-decoration: none !important;
+}
+
+img {
+ fill: var(--fg-color) !important;
+}
+
+a:hover {
+ color: var(--highlight-color) !important;
+ text-decoration: none !important;
+}
+
+footer, input {
+   background: var(--button-color) !important;
+   color: var(--fg-color) !important;
+   border: none !important;
+   border-radius: unset !important;
+}
