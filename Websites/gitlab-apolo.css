@@ -64,6 +64,14 @@ li.is-active, .header-new.dropdown a:hover, .nav .open > a, .title-container a:h
  	border-bottom: 2px solid var(--highlight-color) !important;
 }
 
+.nav-links li a.active {
+    border-color: var(--highlight-color) !important;
+}
+
+.nav-links li a:hover {
+    border-color: var(--hover-color) !important;
+}
+
 .pricing-options--self-hosted .plan {
  	border-top: 2px solid var(--highlight-color) !important;
 }
@@ -229,4 +237,8 @@ body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
 
 .tooltip .arrow::before {
     border-bottom-color: var(--secondary-bg-color) !important;   
+}
+
+.bs-tooltip-top .arrow::before {
+    border-top-color: var(--secondary-bg-color) !important;   
 }
