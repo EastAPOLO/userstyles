@@ -133,7 +133,7 @@ body.ui-indigo .nav-sidebar li.active svg {
     fill: var(--highlight-color) !important;
 }
 
-.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon, .commit-icon svg path, .commit-sha-group .btn svg, body.ui-indigo .nav-sidebar li.active a:hover svg {
+.right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon svg, .method svg, body.ui-indigo .search .search-input-wrap .search-icon, .commit-icon svg path, .commit-sha-group .btn svg, body.ui-indigo .nav-sidebar li.active a:hover svg, .project-repo-buttons .btn svg, .group-buttons .btn svg, [fill="#7E7E7E"] {
     fill: var(--fg-color) !important;
 }
 
