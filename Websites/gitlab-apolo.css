@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, span, p, em, b, li a, select, a, li, input, td, .search-inpu
     color: var(--fg-color) !important;   
 }
 
-.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight, .commit .commit-row-description, span.c, .file-content.code .line-numbers a {
+.right-sidebar .title, .detail-page-header, .mr-widget-help, .nothing-here-block, .projects-list-item-container .project-namespace, .faq-question .fa, li.dropdown-header, .blog.list .date, .light, .breadcrumbs-list > li > a, .breadcrumb-item-text, svg.s8, .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight, .commit .commit-row-description, span.c, .file-content.code .line-numbers a, .dropdown-bold-header {
     color: var(--secondary-fg-color) !important;
 }
 
