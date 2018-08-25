@@ -30,7 +30,7 @@ body, .page-wrap, .home-splash, .footer-fixed, .open-core, .customers, .footer, 
  	display: none !important;   
 }
 
-h1, h2, h3, h4, h5, p, em, b, li a, select, a, li, input, td, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover, .clearfix a:hover, .btn .fa, .btn svg, .cover-block .cover-desc, .projects-dropdown-container .section-header, .algolia-autocomplete .algolia-docsearch-suggestion--title, .nothing-here-block.diff-collapsed .click-to-expand {
+h1, h2, h3, h4, h5, p, em, b, li a, select, a, li, input, td, .search-input, .js-search, .light, .help-block, .description, .cover-title, .event-item-timestamp, .dropdown-menu-inner-title, .tree-holder .tree-item .tree-item-file-name i, .tree-commit-link, .tree-holder .tree-time-ago, .btn-link, .tree-holder .tree-item .tree-item-file-name a:hover, .cta-btn.ghost-primary:hover, .search form, body.index .navbar-fixed-top .search-box-icon, body.index .navbar-fixed-top .search-close, .container a:hover, .right-sidebar.right-sidebar-collapsed .sidebar-collapsed-icon, .event-note, .event-item .event-title, .search-box-icon, .blog.article .author a, .blog.article .author-twitter i, .blog.article .author-gitlab i, .btn:hover, .btn .fa, .btn svg, .cover-block .cover-desc, .projects-dropdown-container .section-header, .algolia-autocomplete .algolia-docsearch-suggestion--title, .nothing-here-block.diff-collapsed .click-to-expand {
     color: var(--fg-color) !important;   
 }
 
@@ -253,7 +253,7 @@ body.static-nav .navbar-header-dark a:hover, .search-icon:hover {
     border-color: var(--bg-color) !important;   
 }
 
-.code.white .o, .code.white .m, .code.white .p, .code.white .n, .code.white .nb, .code.white .nd, .code.white .k, .code.white .sx, .code.white .s1, .code.white .s, .code.white .mi {
+.code.white .o, .code.white .m, .code.white .p, .code.white .n, .code.white .nb, .code.white .nd, .code.white .k, .code.white .sx, .code.white .s1, .code.white .s, .code.white .mi, .file-content.code pre code .line, .code.white .s2, .code.white .nv {
     color: var(--fg-color) !important;
 }
 
