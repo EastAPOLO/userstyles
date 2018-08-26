@@ -1,0 +1,259 @@
+/* Arch Wiki Dark Userstyle */
+/* Author: Patrycja Balik, Stefan Stojanovic */
+/* License: GPL3 <https://www.gnu.org/licenses/gpl-3.0-standalone.html> */
+
+:root {
+    --bg-color: #1C1C1C;
+    --secondary-bg-color: #1A1717;
+    --fg-color: #DADADA;
+    --insensitive-bg-light: rgba(36, 36, 36, 0.5);
+    --highlight-color: #3A85E2;
+    --hover-color: #383838;
+    --button-color: #2B2B2B;
+    --accent-inactive: #6d3737;
+}
+
+body, #content, table {
+    color: var(--fg-color) !important;
+    background: var(--bg-color) !important;
+    border: none !important;
+}
+
+body, h1, h2 {
+    font-family: Fira Sans !important;
+}
+
+body, #content,
+#mw-panel, .portal {
+    font-size: 1.1em !important;
+}
+
+a, #bodyContent > .mw-content-ltr a, #archnavbar ul li.anb-selected a {
+    color: var(--highlight-color) !important;
+}
+
+#bodyContent > .mw-content-ltr a:hover, #archnavbar ul li a:hover {
+    color: var(--highlight-color) !important;
+}
+
+#catlinks #mw-normal-catlinks a, #footer #footer-info a, #footer #footer-places a {
+    color: var(--highlight-color) !important;
+}
+
+#archnavbar.anb-home ul li#anb-home a, #archnavbar.anb-packages ul li#anb-packages a {
+    color: var(--highlight-color) !important;   
+}
+
+#archnavbarlist li a:hover {
+   text-decoration: none !important; 
+}
+
+a.new, #p-cactions .new a, #p-personal a.new {
+    color: var(--accent-inactive) !important;
+}
+
+#mw-panel .portal .body ul li a {
+    color: var(--fg-color) !important;
+}
+
+#mw-panel .portal .body ul li a:hover {
+    color: var(--fg-color) !important;
+}
+
+#archnavbar {
+    background: var(--secondary-bg-color) !important;
+    border-bottom: 4px var(--highlight-color) solid !important;
+}
+
+#archnavbar a {
+    color: var(--fg-color) !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--fg-color) !important;
+    border-bottom-color: var(--button-color) !important;
+    border-bottom-width: 4px !important;
+}
+
+pre, .pBody {
+    background: transparent !important;
+    border: none !important;
+    color: var(--fg-color) !important;
+}
+
+code {
+    background: var(--button-color) !important;
+    border: none !important;
+    color: var(--fg-color) !important;
+}
+
+.vectorTabs {
+    background: unset !important;
+    border-width: 0 0 3px 0 !important;
+    border-style: solid !important;
+    border-color: var(--button-color) !important;
+}
+
+.vectorMenu h3 {
+    background: unset !important;
+}
+
+.vectorTabs li.selected {
+    background: var(--button-color) !important;
+    box-shadow: inset 0 3px var(--highlight-color);
+}
+
+.vectorTabs li {
+    border: unset !important;
+}
+
+.vectorTabs span {
+    background: unset !important;
+}
+
+.vectorTabs li a {
+    color: var(--fg-color) !important;
+    text-decoration: none !important;
+}
+
+.vectorTabs li:hover:not(.selected) {
+    background: var(--insensitive-bg-light) !important;
+}
+
+#simpleSearch {
+    background: var(--button-color) !important;
+    border: unset !important;
+}
+
+#simpleSearch input {
+    color: var(--fg-color) !important;
+}
+
+#toc {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+#bodyContent #toc a {
+    color: var(--fg-color) !important;
+}
+
+#mw-navigation #mw-head ul li a {
+     color: var(--fg-color) !important;
+}
+
+.tocnumber {
+    color: var(--highlight-color) !important;
+}
+
+.searchButton {
+    display: none !important;
+}
+
+.archwiki-template-message {
+    background-color: var(--button-color) !important;
+    border-width: 0 0 0 4px !important;
+    border-color: #477b7b !important;
+}
+
+.archwiki-template-box-note {
+    background-color: var(--button-color) !important;
+    border-width: 0 0 0 4px !important;
+    border-color: var(--highlight-color) !important;
+}
+
+.archwiki-template-box-warning {
+    background-color: var(--button-color) !important;
+    border-width: 0 0 0 4px !important;
+    border-color: var(--highlight-color) !important;
+}
+
+.archwiki-template-box-tip {
+    background-color: var(--button-color) !important;
+    border-width: 0 0 0 4px !important;
+    border-color: var(--highlight-color) !important;
+}
+
+.archwiki-template-meta-related-articles-start > p {
+    color: var(--fg-color) !important;
+    background: var(--bg-color) !important;
+    border-color: var(--highlight-color) !important;
+}
+
+a.external, a.extiw {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjEzIiB3aWR0aD0iMTMiIHZlcnNpb249IjEuMSIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4NCjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNi40Njc4MDgsLTI1OC4zOTAwNSkiPg0KPHBhdGggc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiM5OTI1MjU7IiBkPSJtNDEuNDcsMjU5LjQsNywwLDAsNy0yLTItMywyLDAtMSwzLTIuMjUsMSwxLDAtMy43NS0zLjc1LDAsMSwxLTIuMjUsMy0xLDAsMi0zeiIvPg0KPHBhdGggc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiM5OTI1MjU7IiBkPSJtNDMuNDcsMjYxLjQtNSwwLDAsOCw4LDAsMC01LTEsMCwwLDQtNiwwLDAtNiw0LDB6Ii8+DQo8cGF0aCBzdHlsZT0ib3BhY2l0eToxO2ZpbGw6Izk5MjUyNTsiIGQ9Im00MC41NSwyNjMuOWMwLTAuNjIxMywwLjYyMTMtMC42MjEzLDAuNjIxMy0wLjYyMTMsMS44NjQsMC42MjEzLDMuMTA3LDEuODY0LDMuNzI4LDMuNzI4LDAsMCwwLDAuNjIxMy0wLjYyMTMsMC42MjEzLTEuMjQzLTEuODY0LTEuODY0LTIuNDg1LTMuNzI4LTMuNzI4eiIvPg0KPC9nPg0KPC9zdmc+) center right no-repeat !important;
+}
+
+.plainlinks a.external {
+    background: unset !important;
+}
+
+.catlinks {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+li#pt-userpage, li#pt-anonuserpage, li#pt-login {
+    background: none !important;
+}
+
+div.box {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* Tables */
+table.wikitable td, table.wikitable th {
+    border: none !important;
+}
+
+table.wikitable tr > th {
+    background: var(--button-color) !important;
+}
+
+table.wikitable tbody tr:nth-child(odd) > th {
+    background: var(--insensitive-bg-light) !important;
+}
+
+table.wikitable tr > td {
+    background: var(--bg-color) !important;
+}
+
+table.wikitable tr:nth-child(even) > td {
+    background: var(--insensitive-bg-light) !important;
+}
+
+#pkgsearch {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#pkgsearch input {
+    background: var(--button-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    float: none !important;
+    width: 270px !important;
+}
+
+#news h3 a {
+    background: var(--highlight-color) !important;
+    color: var(--fg-color) !important;
+}
+
+h3 span.arrow {
+    border-top: 6px solid var(--highlight-color) !important;
+}
+
+/* AUR */
+table.results th {
+    background-color: var(--button-color) !important;
+}
+
+table.results tr.odd {
+    background-color: var(--insensitive-bg-light) !important;
+}
+
+table.results tr.even {
+    background-color: var(--button-color) !important;
+}
