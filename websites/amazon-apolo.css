@@ -1,0 +1,102 @@
+/* Amazon Dark Userstyle */
+/* Author: Stefan Stojanovic */
+/* License: GPL3 <https://www.gnu.org/licenses/gpl-3.0-standalone.html> */
+
+:root {
+  --bg-color: #1C1C1C;
+  --secondary-bg-color: #1A1717;
+  --fg-color: #DADADA;
+  --secondary-fg-color: #707070;
+  --highlight-color: #3A85E2;
+  --hover-color: #383838;
+  --border-color: #2D2D2D;
+  --button-color: #2B2B2B;
+}
+
+body, #navbar.nav-bluebeacon #nav-search .nav-search-scope, .ya-card--rich, #rightContainerATF, .a-row, div.fsdFullWidthImage, .a-container, .a-box .a-box-inner, .a-divider-inner::after, .bucketDivider::after, .a-button.a-button-small, .btfContent {
+ background: var(--bg-color) !important;
+ color: var(--fg-color) !important;
+ border: none !important;
+ border-radius: unset !important;
+ box-shadow: none !important;
+}
+
+.nav-right, .nav-left, #nav-xshop-container, #nav-search, #nav-main, .nav-carousel-container, #nav-timeline, .nav-timeline-item, .nav-timeline-img-holder, #nav-flyout-timeline, #nav-search .nav-search-field, #hud-dashboard,  .fsdDeptCol, .fsdDeptTitle, .a-input-text, input[type="text"], input[type="search"], input[type="number"], input[type="tel"], input[type="password"], input[type="date"], input[type="email"], ul.a-tabs, ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a, table.a-keyvalue th, #prodDetails td,  #nav-subnav, .a-popover-inner,  .a-popover.a-arrow-bottom .a-arrow, .nav-template, .nav-flyout, .nav-promo, #navFooter.navLeftFooter .navFooterCopyright, #navFooter.navLeftFooter .navFooterDescLine, #navFooter.navLeftFooter, #leftNav .s-pfsd-banner, #leftNav, .a-expander-container, div.pagnHy {
+ background: var(--secondary-bg-color) !important;
+ color: var(--fg-color) !important;
+ border: none !important;
+ border-radius: unset !important;
+ box-shadow: none !important;
+}
+
+.action-inner:hover, #a-autoid-8-announce:hover, #a-autoid-9-announce:hover, .a-meter .a-meter-bar .icp-radio:hover, .nav-action-button:hover, .a-meter .a-meter-bar, #navbar.nav-bluebeacon #nav-search .nav-search-submit, .a-button:hover a, .cr-lighthouse-term:hover, .cr-lighthouse-term.cr-lighthut-term-selected, .navFooterBackToTopText:hover, #icp-touch-link-country:hover, #icp-touch-link-language:hover, .nav-packard-glow #nav-global-location-slot .nav-a:hover, #nav-link-shopall:hover,  #icp-nav-flyout:hover, .pagnCur {
+ background: var(--highlight-color) !important;
+ color: var(--fg-color) !important;
+ border: none !important;
+ border-radius: unset !important;
+ box-shadow: none !important;
+}
+
+#a-autoid-8-announce, #a-autoid-9-announce, .a-meter, #twotabsearchtextbox, .icp-radio, .nav-action-button, .a-button .a-button-inner, .cr-lighthouse-term, .navFooterBackToTopText, #icp-touch-link-country, #icp-touch-link-language,  #nav-link-shopall, #icp-nav-flyout, .nav-packard-glow #nav-global-location-slot .nav-a {
+ background: var(--button-color) !important;
+ color: var(--fg-color) !important;
+ border: none !important;
+ border-radius: unset !important;
+ box-shadow: none !important; 
+}
+
+#nav-upnav, .nav-logo-base, .nav-logo-tagline, .uilm-section img, .nav-arrow .nav-arrow-inner, .a-profile-avatar-wrapper, .a-profile, .a-icon-cart, div.nav-arrow, #pagnNextString, .firstPageLeftArrow, .srSprite, #pagnPrevString, #poweredByEmpty {
+ display: none !important;   
+}
+
+input[type="text"], hr.bucketDivider, .a-box, .a-button-inner, table.a-bordered, hr, #vas-ppd-fake-twister #vas-fake-twister-whatsincluded, .a-section-expander-inner, #prodDetails .prodDetTable, #prodDetails .secHeader, #prodDetails td, .a-popover-wrapper, #vas-ppd-fake-twister .vas-ppd-swatches .vas-ppd-swatch-select, #vas-ppd-fake-twister .vas-ppd-swatches li, select, a#nav-hamburger-menu.hm-T2, .a-button, .djlz .adFeedback, .s-result-list-hgrid.s-col-1 li:nth-child(n+2) .s-item-container, #leftNav #leftNavContainer, .s-border-right, #rhf .rhf-border, .icp-nav-link-border, .a-carousel-card, a#nav-hamburger-menu {
+ border: none !important;
+ border-radius: unset !important;
+}
+
+h1, h2, h3, h4, span, p, a, .nav-timeline-asin-title, .ya-card__heading--rich, a:link .value, .a-section, .a-color-base, .a-color-state, #prodDetails #SalesRank ul li span.zg_hrsr_ladder, #prodDetails #SalesRank ul li span.zg_hrsr_rank, #prodDetails .wrapper, #prodDetails td, #rhf .rhf-sign-in-button, #rhf .rhf-header, .a-color-tertiary, .a-color-price, .p13n-sc-price, select, #nav-flyout-ya-signin .nav_pop_new_cust, #prodDetails h2, #rhf .ybh-fresh-link, .fresh-shoveler .as-title-block .a-color-base, div.pagnHy span.pagnLink a:hover {
+ color: var(--fg-color) !important;
+ text-decoration: none !important;
+}
+
+a:hover, .ya-card__heading--rich:hover, .hud-carousel-element a:hover .subtext, a:hover.a-color-tertiary, .a-declarative:hover, [data-hook="review-comment"]:hover, .s-access-title:hover, .a-color-success, .a-color-link, #leftNav .s-ref-text-link:hover span, #leftNav .s-ref-text-link:hover h4, #leftNav .s-ref-text-link:hover {
+ color: var(--highlight-color) !important;
+ text-decoration: none !important;
+}
+
+.a-color-secondary, #navFooter.navLeftFooter .navFooterDescText, #navFooter.navLeftFooter .nav_last {
+ color: var(--secondary-fg-color) !important;   
+}
+
+#nav-search .nav-search-field .nav-input {
+ height: 35px !important;
+}
+
+#navbar #nav-search {
+ width: 100% !important;
+ bottom: 40px !important;
+ text-align: center !important;
+ left: 12px !important;
+}
+
+ul.a-tabs .a-tab-heading a:hover, ul.a-tabs li a:hover, div.pagnHy span.pagnLink a:hover {
+ background: var(--hover-color) !important;
+ border: none !important;
+}
+
+ul.a-tabs .a-tab-heading.a-active a, ul.a-tabs li.a-active a {
+ background: var(--button-color) !important;
+ border-top: 2px solid var(--highlight-color) !important;   
+}
+
+.a-button-primary .a-button-inner, #nav-search .nav-searchbar {
+ box-shadow: none !important;   
+}
+
+.action-inner {
+ text-shadow: none !important;   
+}
+
+.pagnCur, div.pagnHy span.pagnLink a:hover {
+ padding: 4px 8px 4px !important;   
+}
