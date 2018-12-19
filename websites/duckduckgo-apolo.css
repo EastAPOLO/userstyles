@@ -1,0 +1,46 @@
+/* DuckDuckGo Dark Userstyle */
+/* Author: Stefan Stojanovic */
+/* License: GPL3 <https://www.gnu.org/licenses/gpl-3.0-standalone.html> */
+
+:root {
+  --secondary-bg-color: #1A1717;
+  --button-color: #2B2B2B;
+  --highlight-color: #3A85E2;
+  --hover-color: #383838;
+  --fg-color: #DADADA;
+}
+
+.search--home, .search--home.has-text .search__button, .search--header, #search_button, .modal--dropdown--region .modal__header .frm__input {
+    background: var(--button-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    border-radius: unset !important;
+}
+
+.search__button:hover, #search_button:hover, #search_button_homepage:hover {
+    background: var(--highlight-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    border-radius: unset !important;
+}
+
+.acp-wrap {
+    background: var(--secondary-bg-color) !important;
+    color: var(--fg-color) !important;
+    border: none !important;
+    border-radius: unset !important; 
+}
+
+.search__autocomplete {
+    margin: unset !important;
+    border: none !important;
+}
+
+.search__button, #search_button {
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+}
+
+.modal__list__link:hover {
+    background: var(--hover-color) !important;
+}
